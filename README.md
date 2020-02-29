@@ -1,8 +1,14 @@
-# Overview
-This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
+# CarND Kidnapped Vehicle
 
-#### Submission
-All you will need to submit is your `src` directory. You should probably do a `git pull` before submitting to verify that your project passes the most up-to-date version of the grading code (there are some parameters in `src/main.cpp` which govern the requirements on accuracy and run time).
+## Overview
+
+This repository contains all the code for the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
+
+**To view the video on YouTube, click the following image: **
+
+[![IMAGE ALT TEXT HERE](./video/kidnap.gif)](https://youtu.be/dOkk-CwJz6w) 
+
+
 
 ## Project Introduction
 Your robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
@@ -88,8 +94,8 @@ Your job is to build out the methods in `particle_filter.cpp` until the simulato
 Success! Your particle filter passed!
 ```
 
-# Implementing the Particle Filter
-The directory structure of this repository is as follows:
+## Implementing the Particle Filter
+### The directory structure of this repository is as follows:
 
 ```
 root
@@ -116,7 +122,7 @@ The only file you should modify is `particle_filter.cpp` in the `src` directory.
 
 If you are interested, take a look at `src/main.cpp` as well. This file contains the code that will actually be running your particle filter and calling the associated methods.
 
-## Inputs to the Particle Filter
+### Inputs to the Particle Filter
 You can find the inputs to the particle filter in the `data` directory.
 
 #### The Map*
@@ -125,7 +131,7 @@ You can find the inputs to the particle filter in the `data` directory.
 2. y position
 3. landmark id
 
-### All other data the simulator provides, such as observations and controls.
+#### All other data the simulator provides, such as observations and controls.
 
 > * Map data provided by 3D Mapping Solutions GmbH.
 
@@ -138,7 +144,3 @@ The things the grading code is looking for are:
 1. **Accuracy**: your particle filter should localize vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
 
 2. **Performance**: your particle filter should complete execution within the time of 100 seconds.
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-# CarND-Kidnapped-Vehicle-Project-master
